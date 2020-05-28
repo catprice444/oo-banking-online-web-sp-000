@@ -20,7 +20,7 @@ class Transfer
       sender.balance < @amount && @status == "pending"
       "Transaction rejected. Please check your account balance."
     end
-    @status = "complete"
+    # @status = "complete"
   end
 
   def reverse_transfer
