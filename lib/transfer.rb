@@ -5,7 +5,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @status = "pending"
-
+    @transfer = transfer
   end
 
   # def self.amount
