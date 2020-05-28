@@ -9,7 +9,7 @@ class Transfer
   end
 
   def self.amount
-
+    @transfer
   end
 
 
