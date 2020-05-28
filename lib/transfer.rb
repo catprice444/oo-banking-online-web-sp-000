@@ -5,12 +5,12 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @status = "pending"
-    transfer.amount
+    
   end
 
-  def self.amount
-    @transfer
-  end
+  # def self.amount
+  #   @transfer
+  # end
 
 
   def valid?
