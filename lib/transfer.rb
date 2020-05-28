@@ -29,6 +29,6 @@ class Transfer
       @status = "reversed"
     else
       nil
-    end 
+    end
   end 
 end
