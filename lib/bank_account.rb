@@ -9,7 +9,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    amount == deposit(self) 
+    amount == deposit
     @balance << amount
   end
 
