@@ -8,9 +8,9 @@ class Transfer
     @transfer = transfer
   end
 
-  # def self.amount
-  #   @transfer
-  # end
+  def self.amount
+    @transfer
+  end
 
 
   def valid?
